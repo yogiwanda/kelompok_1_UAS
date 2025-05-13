@@ -84,8 +84,3 @@ Untuk menambah pasien, ketik `1` lalu ikuti petunjuk pengisian data di layar.
 
 ### Spesifikasi yang dibutuhkan:
 - Program ini dijalankan di terminal yang mendukung **ANSI escape sequence** agar tampilan warna dan teks lebih jelas.
-
----
-
-**Selamat menggunakan SIMAPAN!**  
-Semoga membantu dalam pengelolaan data pasien secara efisien. 😊
