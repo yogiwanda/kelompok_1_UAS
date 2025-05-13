@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "pasien.h"
+#include "header.h"
 
 Pasien daftarPasien[MAX_PASIEN];
 int jumlahPasien = 0;
