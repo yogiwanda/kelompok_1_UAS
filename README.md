@@ -1,86 +1,53 @@
-# SELAMAT DATANG DI PROJEK SIMAPAN (SISTEM MANAJEMEN PASIEN)
+# Sistem Manajemen Pasien (SIMAPAN)
 
-Proyek ini adalah aplikasi manajemen data pasien yang dibuat menggunakan bahasa pemrograman C.  
-Aplikasi ini memiliki fitur untuk menambah, mengedit, menghapus, dan menampilkan data pasien serta riwayat medis mereka.
+SIMAPAN adalah sistem manajemen pasien berbasis terminal yang dirancang untuk memudahkan pengelolaan data pasien, riwayat medis, antrian pasien, dan prioritas pengobatan di fasilitas kesehatan. Dengan antarmuka berbasis teks, SIMAPAN menyediakan cara yang sederhana namun efektif untuk mengelola berbagai informasi medis.
 
-Berikut petunjuk untuk menjalankan program:
+## Kelebihan SIMAPAN
 
----
+- **Manajemen Data Pasien yang Efisien**: SIMAPAN memungkinkan pengguna untuk dengan mudah menambah, mengedit, dan menghapus data pasien.
+- **Riwayat Medis Tersimpan dengan Rapi**: Sistem menyimpan riwayat medis setiap pasien, sehingga memudahkan pelacakan dan pemantauan kesehatan pasien.
+- **Pencarian Pasien yang Cepat**: Pengguna dapat dengan mudah mencari pasien berdasarkan nama atau ID untuk akses yang lebih cepat.
+- **Pengelolaan Antrian Pasien**: Sistem ini menyediakan fitur untuk menampilkan antrian pasien berdasarkan prioritas, memastikan pasien dengan tingkat urgensi yang lebih tinggi mendapatkan perhatian terlebih dahulu.
+- **Prioritas Pasien yang Jelas**: Pasien dapat diprioritaskan berdasarkan tingkat urgensi pengobatan, memudahkan alur perawatan yang lebih terstruktur.
 
-### 1. Buka Terminal (CMD/PowerShell)
-Pastikan direktori terminal saat ini berada di folder yang berisi file program (`simapan`).
+## Cara Penggunaan SIMAPAN
 
-### 2. Compile file dengan perintah berikut:
-```bash
-gcc pasien.c main.c simapan.c -o simapan
-```
+Setelah Anda berhasil menjalankan SIMAPAN, Anda akan melihat menu utama yang menawarkan berbagai pilihan untuk mengelola data pasien dan riwayat medis. Berikut adalah cara menggunakan setiap fitur:
 
-### 3. Jalankan hasil compile dengan perintah:
-```bash
-./simapan
-```
+1. **Manajemen Pasien**  
+   Anda dapat memilih opsi ini untuk menambah, mengedit, menghapus, atau melihat data pasien yang sudah ada.  
+   - Tambah Pasien: Masukkan data pasien baru (nama, ID, alamat, dll.).
+   - Edit Pasien: Ubah informasi pasien yang sudah ada.
+   - Hapus Pasien: Hapus data pasien yang sudah tidak dibutuhkan.
+   - Lihat Semua Pasien: Menampilkan daftar lengkap pasien yang terdaftar.
 
----
+2. **Riwayat Medis Pasien**  
+   Di submenu ini, Anda bisa mengelola riwayat medis pasien.  
+   - Tambah Riwayat Medis: Masukkan informasi riwayat medis baru untuk pasien tertentu.
+   - Lihat Semua Riwayat Medis: Menampilkan riwayat medis lengkap pasien yang terdaftar.
+   - Lihat Riwayat Medis Pasien Tertentu: Cari dan tampilkan riwayat medis pasien berdasarkan ID atau nama.
 
-### 4. Menu utama akan tampil seperti berikut:
-```
-Selamat Datang di SIMAPAN!
-========= Menu =========
-1. Tambah Pasien
-2. Hapus Pasien
-3. Tampilkan Pasien
-4. Edit Pasien
-5. Cari Pasien
-6. Tambah Riwayat Medis
-7. Tampilkan Semua Riwayat Medis
-8. Tampilkan Riwayat Pasien Tertentu
-9. Tampilkan Pasien Berdasarkan Prioritas
-0. Keluar
-```
+3. **Cari Pasien**  
+   Gunakan submenu ini untuk mencari pasien berdasarkan ID atau nama, sehingga Anda dapat dengan mudah menemukan data pasien yang diperlukan.
 
----
+4. **Tampilkan Antrian Pasien**  
+   Fitur ini menampilkan daftar pasien dalam urutan antrian berdasarkan prioritas pengobatan mereka.
 
-### 5. Penjelasan Setiap Menu:
+5. **Tampilkan Berdasarkan Prioritas**  
+   Menampilkan daftar pasien dengan prioritas pengobatan (Ringan, Sedang, Berat), untuk membantu memudahkan penanganan pasien yang membutuhkan perawatan segera.
 
-- **1. Tambah Pasien**  
-  Digunakan untuk menambahkan data pasien baru ke dalam sistem, seperti nama, umur, jenis kelamin, dan lain-lain.
+## Menu Utama
 
-- **2. Hapus Pasien**  
-  Menghapus data pasien berdasarkan ID atau kriteria tertentu.
+Setelah menjalankan program, Anda akan disajikan dengan menu berikut:
 
-- **3. Tampilkan Pasien**  
-  Menampilkan semua data pasien yang telah tersimpan dalam sistem.
+1. **Manajemen Pasien**
+2. **Riwayat Medis Pasien**
+3. **Cari Pasien**
+4. **Tampilkan Antrian**
+5. **Tampilkan Berdasarkan Prioritas**
+0. **Keluar**
 
-- **4. Edit Pasien**  
-  Mengubah atau memperbarui data pasien yang sudah ada.
+Setiap menu dapat diakses dengan memilih nomor yang sesuai, dan program akan memberi petunjuk lebih lanjut untuk setiap pilihan.
 
-- **5. Cari Pasien**  
-  Mencari pasien berdasarkan nama atau ID untuk melihat data secara spesifik.
+Dengan menggunakan SIMAPAN, pengelolaan data pasien menjadi lebih terstruktur dan efisien. Sistem ini sangat cocok untuk rumah sakit atau klinik yang ingin mempermudah manajemen data pasien secara digital.
 
-- **6. Tambah Riwayat Medis**  
-  Menambahkan catatan riwayat medis baru ke data pasien yang sudah ada.
-
-- **7. Tampilkan Semua Riwayat Medis**  
-  Menampilkan seluruh riwayat medis dari semua pasien dalam sistem.
-
-- **8. Tampilkan Riwayat Pasien Tertentu**  
-  Menampilkan riwayat medis hanya dari satu pasien tertentu yang dicari.
-
-- **9. Tampilkan Pasien Berdasarkan Prioritas**  
-  Menampilkan daftar pasien berdasarkan tingkat prioritas tertentu (misalnya kondisi darurat, penyakit kronis, dsb).
-
-- **0. Keluar**  
-  Keluar dari program SIMAPAN.
-
----
-
-### 6. Cara Menggunakan:
-
-Masukkan angka sesuai menu yang ingin dijalankan, lalu tekan **ENTER**.  
-**Contoh:**  
-Untuk menambah pasien, ketik `1` lalu ikuti petunjuk pengisian data di layar.
-
----
-
-### Spesifikasi yang dibutuhkan:
-- Program ini dijalankan di terminal yang mendukung **ANSI escape sequence** agar tampilan warna dan teks lebih jelas.
