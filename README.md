@@ -12,6 +12,14 @@ SIMAPAN adalah sistem manajemen pasien berbasis terminal yang dirancang untuk me
 
 ## Cara Penggunaan SIMAPAN
 
+Disini kami akan menjelaskan cara menjalankan program SIMAPAN yang telah kami buat. Berikut petunjuk untuk menjalankan program SIMAPAN:
+
+1. Buka Terminal (CMD/Powershell), pastikan direktori terminal saat ini berada di folder kelompok_1_UAS
+
+2. Lakukan compile file main.c dengan menjalankan perintah berikut di terminal: gcc main.c fungsi.c -o simapan
+
+3. Lakukan sign up dengan cara menjalankan hasil compile main.c. jalankan perintah berikut: ./simapan
+
 Setelah Anda berhasil menjalankan SIMAPAN, Anda akan melihat menu utama yang menawarkan berbagai pilihan untuk mengelola data pasien dan riwayat medis. Berikut adalah cara menggunakan setiap fitur:
 
 1. **Manajemen Pasien**  
