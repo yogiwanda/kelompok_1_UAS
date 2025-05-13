@@ -1,7 +1,5 @@
-// main.c
-
 #include <stdio.h>
-#include "pasien.h"
+#include "header.h"
 
 void tampilkanSubmenuManajemen() {
     int pilih;
