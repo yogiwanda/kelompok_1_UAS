@@ -31,7 +31,7 @@ Setelah Anda berhasil menjalankan SIMAPAN, Anda akan melihat menu utama yang men
    Gunakan submenu ini untuk mencari pasien berdasarkan ID atau nama, sehingga Anda dapat dengan mudah menemukan data pasien yang diperlukan.
 
 4. **Tampilkan Antrian Pasien**  
-   Fitur ini menampilkan daftar pasien dalam urutan antrian berdasarkan prioritas pengobatan mereka.
+   Fitur ini menampilkan daftar pasien berdasarkan urutan antrian.
 
 5. **Tampilkan Berdasarkan Prioritas**  
    Menampilkan daftar pasien dengan prioritas pengobatan (Ringan, Sedang, Berat), untuk membantu memudahkan penanganan pasien yang membutuhkan perawatan segera.
