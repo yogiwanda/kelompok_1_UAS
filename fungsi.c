@@ -278,7 +278,7 @@ void editPasien() {
     printf(GREEN "Data pasien berhasil diubah!\n" RESET);
 }
 
-// Fungsi untuk menampilkan semua pasien
+// Fungsi untuk menampilkan semua pasien berdasarkan antrian
 void tampilkanAntrian() {
     if (front == -1 || front > rear) {
         printf(RED "Antrian kosong.\n" RESET);
